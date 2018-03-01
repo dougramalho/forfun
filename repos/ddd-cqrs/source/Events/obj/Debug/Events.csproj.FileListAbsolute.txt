@@ -1,0 +1,4 @@
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Events\bin\Debug\Events.dll
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Events\bin\Debug\Events.pdb
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Events\obj\Debug\Events.dll
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Events\obj\Debug\Events.pdb

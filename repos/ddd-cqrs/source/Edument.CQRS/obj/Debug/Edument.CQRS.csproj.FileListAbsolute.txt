@@ -1,0 +1,6 @@
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\bin\Debug\Edument.CQRS.dll
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\bin\Debug\Edument.CQRS.pdb
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\bin\Debug\nunit.framework.dll
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\bin\Debug\nunit.framework.xml
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\obj\Debug\Edument.CQRS.dll
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\obj\Debug\Edument.CQRS.pdb
