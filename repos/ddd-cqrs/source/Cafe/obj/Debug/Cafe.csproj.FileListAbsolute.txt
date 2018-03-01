@@ -1,0 +1,11 @@
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Cafe.dll
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Cafe.pdb
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Edument.CQRS.dll
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\nunit.framework.dll
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Edument.CQRS.pdb
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\nunit.framework.xml
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\obj\Debug\Cafe.csprojResolveAssemblyReference.cache
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\obj\Debug\Cafe.dll
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\obj\Debug\Cafe.pdb
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Events.dll
+E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Events.pdb
