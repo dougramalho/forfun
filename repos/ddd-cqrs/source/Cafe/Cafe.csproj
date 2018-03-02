@@ -40,7 +40,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tab\Exceptions.cs" />
     <Compile Include="Tab\OpenTab.cs" />
+    <Compile Include="Tab\PlaceOrder.cs" />
     <Compile Include="Tab\TabAggregate.cs" />
   </ItemGroup>
   <ItemGroup>
