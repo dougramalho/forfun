@@ -156,5 +156,85 @@ namespace CafeTests
                 Items = new List<OrderedItem> { testFood1 }
             }));
         }
+
+        [Test]
+        public void OrderedDrinksCanBeServed()
+        {
+            Test(
+                Given(new TabOpened
+                {
+                    Id = testId,
+                    TableNumber = testTable,
+                    Waiter = testWaiter
+                },
+                new DrinksOrdered
+                {
+                    Id = testId,
+                    Items = new List<OrderedItem> { testDrink1, testDrink2 }
+                }),
+                When(new MarkDrinksServed
+                {
+                    Id = testId,
+                    MenuNumbers = new List<int> { testDrink1.MenuNumber, testDrink2.MenuNumber }
+                }),
+                Then(new DrinksServed
+                {
+                    Id = testId,
+                    MenuNumbers = new List<int> { testDrink1.MenuNumber, testDrink2.MenuNumber }
+                }));
+        }
+
+        [Test]
+        public void CanNotServeAnUnorderedDrink()
+        {
+            Test(
+                Given(new TabOpened
+                {
+                    Id = testId,
+                    TableNumber = testTable,
+                    Waiter = testWaiter
+                },
+                new DrinksOrdered
+                {
+                    Id = testId,
+                    Items = new List<OrderedItem> { testDrink1 }
+                }),
+                When(new MarkDrinksServed
+                {
+                    Id = testId,
+                    MenuNumbers = new List<int> { testDrink2.MenuNumber }
+                }),
+                ThenFailWith<DrinksNotOutstanding>());
+        }
+
+        [Test]
+        public void CanNotServeAnOrderedDrinkTwice()
+        {
+            Test(
+                Given(new TabOpened
+                {
+                    Id = testId,
+                    TableNumber = testTable,
+                    Waiter = testWaiter
+                },
+                new DrinksOrdered
+                {
+                    Id = testId,
+                    Items = new List<OrderedItem> { testDrink1 }
+                },
+                new DrinksServed
+                {
+                    Id = testId,
+                    MenuNumbers = new List<int> { testDrink1.MenuNumber }
+                }),
+                When(new MarkDrinksServed
+                {
+                    Id = testId,
+                    MenuNumbers = new List<int> { testDrink1.MenuNumber }
+                }),
+                ThenFailWith<DrinksNotOutstanding>());
+        }
+
+
     }
 }
