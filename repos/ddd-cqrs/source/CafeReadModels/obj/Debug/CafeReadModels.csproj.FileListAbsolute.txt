@@ -3,3 +3,8 @@ E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\CafeReadModels\bin\Debug\CafeRe
 E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\CafeReadModels\obj\Debug\CafeReadModels.dll
 E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\CafeReadModels\obj\Debug\CafeReadModels.pdb
 E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\CafeReadModels\obj\Debug\CafeReadModels.csprojResolveAssemblyReference.cache
+D:\Projetos\forfun\repos\ddd-cqrs\source\CafeReadModels\bin\Debug\CafeReadModels.dll
+D:\Projetos\forfun\repos\ddd-cqrs\source\CafeReadModels\bin\Debug\CafeReadModels.pdb
+D:\Projetos\forfun\repos\ddd-cqrs\source\CafeReadModels\obj\Debug\CafeReadModels.csprojResolveAssemblyReference.cache
+D:\Projetos\forfun\repos\ddd-cqrs\source\CafeReadModels\obj\Debug\CafeReadModels.dll
+D:\Projetos\forfun\repos\ddd-cqrs\source\CafeReadModels\obj\Debug\CafeReadModels.pdb

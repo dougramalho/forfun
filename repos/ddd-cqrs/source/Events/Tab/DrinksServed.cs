@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cafe.Tab
+namespace Events.Tab
 {
-    public class TabNotOpen : Exception
+    public class DrinksServed
     {
-    }
-
-    public class DrinksNotOutstanding : Exception
-    {
+        public Guid Id;
+        public List<int> MenuNumbers;
     }
 }

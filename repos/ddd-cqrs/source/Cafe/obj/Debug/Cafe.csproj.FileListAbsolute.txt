@@ -9,3 +9,14 @@ E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\obj\Debug\Cafe.dll
 E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\obj\Debug\Cafe.pdb
 E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Events.dll
 E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Events.pdb
+D:\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Cafe.dll
+D:\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Cafe.pdb
+D:\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Edument.CQRS.dll
+D:\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Events.dll
+D:\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\nunit.framework.dll
+D:\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Edument.CQRS.pdb
+D:\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\Events.pdb
+D:\Projetos\forfun\repos\ddd-cqrs\source\Cafe\bin\Debug\nunit.framework.xml
+D:\Projetos\forfun\repos\ddd-cqrs\source\Cafe\obj\Debug\Cafe.csprojResolveAssemblyReference.cache
+D:\Projetos\forfun\repos\ddd-cqrs\source\Cafe\obj\Debug\Cafe.dll
+D:\Projetos\forfun\repos\ddd-cqrs\source\Cafe\obj\Debug\Cafe.pdb

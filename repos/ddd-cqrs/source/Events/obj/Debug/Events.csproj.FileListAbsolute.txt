@@ -3,3 +3,8 @@ E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Events\bin\Debug\Events.pdb
 E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Events\obj\Debug\Events.dll
 E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Events\obj\Debug\Events.pdb
 E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Events\obj\Debug\Events.csprojResolveAssemblyReference.cache
+D:\Projetos\forfun\repos\ddd-cqrs\source\Events\bin\Debug\Events.dll
+D:\Projetos\forfun\repos\ddd-cqrs\source\Events\bin\Debug\Events.pdb
+D:\Projetos\forfun\repos\ddd-cqrs\source\Events\obj\Debug\Events.csprojResolveAssemblyReference.cache
+D:\Projetos\forfun\repos\ddd-cqrs\source\Events\obj\Debug\Events.dll
+D:\Projetos\forfun\repos\ddd-cqrs\source\Events\obj\Debug\Events.pdb

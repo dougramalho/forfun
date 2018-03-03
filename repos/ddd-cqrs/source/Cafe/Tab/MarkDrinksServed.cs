@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Cafe.Tab
 {
-    public class TabNotOpen : Exception
+    public class MarkDrinksServed
     {
-    }
-
-    public class DrinksNotOutstanding : Exception
-    {
+        public Guid Id;
+        public List<int> MenuNumbers;
     }
 }

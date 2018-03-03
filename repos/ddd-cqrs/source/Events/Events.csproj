@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tab\DrinksServed.cs" />
     <Compile Include="Tab\Shared.cs" />
     <Compile Include="Tab\TabOpened.cs" />
   </ItemGroup>

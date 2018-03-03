@@ -12,9 +12,13 @@ namespace Cafe.Tab
     public class TabAggregate : Aggregate, 
         IHandleCommand<OpenTab>,
         IHandleCommand<PlaceOrder>,
-        IApplyEvent<TabOpened>
+        IHandleCommand<MarkDrinksServed>,
+        IApplyEvent<TabOpened>,
+        IApplyEvent<DrinksOrdered>,
+        IApplyEvent<DrinksServed>
     {
         private bool open = false;
+        private List<int> outstandingDrinks = new List<int>();
 
         public IEnumerable Handle(OpenTab c)
         {
@@ -49,9 +53,43 @@ namespace Cafe.Tab
                 };
         }
 
+        public IEnumerable Handle(MarkDrinksServed c)
+        {
+            if (!AreDrinksOutstanding(c.MenuNumbers))
+                throw new DrinksNotOutstanding();
+
+            yield return new DrinksServed
+            {
+                Id = c.Id,
+                MenuNumbers = c.MenuNumbers
+            };
+        }
+        
         public void Apply(TabOpened e)
         {
             open = true;
+        }
+
+        public void Apply(DrinksOrdered e)
+        {
+            outstandingDrinks.AddRange(e.Items.Select(i => i.MenuNumber));
+        }
+
+        public void Apply(DrinksServed e)
+        {
+            foreach (var num in e.MenuNumbers)
+                outstandingDrinks.Remove(num);
+        }
+
+        private bool AreDrinksOutstanding(List<int> menuNumbers)
+        {
+            var curOutstanding = new List<int>(outstandingDrinks);
+            foreach (var num in menuNumbers)
+                if (curOutstanding.Contains(num))
+                    curOutstanding.Remove(num);
+                else
+                    return false;
+            return true;
         }
     }
 }

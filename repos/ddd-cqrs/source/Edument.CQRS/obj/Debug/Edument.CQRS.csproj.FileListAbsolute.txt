@@ -5,3 +5,10 @@ E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\bin\Debug\nunit.fr
 E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\obj\Debug\Edument.CQRS.dll
 E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\obj\Debug\Edument.CQRS.pdb
 E:\Douglas\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\obj\Debug\Edument.CQRS.csprojResolveAssemblyReference.cache
+D:\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\bin\Debug\Edument.CQRS.dll
+D:\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\bin\Debug\Edument.CQRS.pdb
+D:\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\bin\Debug\nunit.framework.dll
+D:\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\bin\Debug\nunit.framework.xml
+D:\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\obj\Debug\Edument.CQRS.csprojResolveAssemblyReference.cache
+D:\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\obj\Debug\Edument.CQRS.dll
+D:\Projetos\forfun\repos\ddd-cqrs\source\Edument.CQRS\obj\Debug\Edument.CQRS.pdb
